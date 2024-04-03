@@ -1,0 +1,1 @@
+{"Width":26,"Height":42,"RepeatL":[1,2,1]}

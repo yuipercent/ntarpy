@@ -1,0 +1,10 @@
+CreateEntityType {"Name":"player"}
+	CreateSubEntity {"Name":"Body0","Weight":4,"RenderPriority":10} Origin
+	CreateSubEntity {"Name":"Body1","Weight":3,"RenderPriority":9}
+	CreateSubEntity {"Name":"Arm0","Weight":2,"RenderPriority":5}
+	CreateSubEntity {"Name":"Arm1","Weight":2,"RenderPriority":5}
+	CreateConstraint {"Relative":[],"IsRelative":False,"Applies":["Body0","Body1"],"CAngle":180,"stableLength":9,"Length":[9.5,10.5],"LengthCForce":Formula("0.1a")}
+	CreateConstraint {"Relative":[],"IsRelative":False,"Applies":["Body1","Arm0"],"CAngle":90,"stableLength":9,"Length":[9.5,10.5],"LengthCForce":Formula("0.1a")}
+
+CreateRegion {"Name":"testtt"}
+End

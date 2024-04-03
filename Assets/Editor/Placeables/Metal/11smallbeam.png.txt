@@ -1,0 +1,1 @@
+{"Width":16,"Height":8,"RepeatL":[1,1,1,1],"OverlapCoef":1}
